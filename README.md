@@ -25,20 +25,7 @@ This project is a Node.js application that fetches data from an API, displays it
 2. Install the dependencies:
    ```sh
    npm install
-   Project Structure:
    ```
-
-ejs-app/
-├── public/
-│ └── styles.css
-├── uploads/
-├── views/
-│ ├── index.ejs
-│ ├── upload.ejs
-│ └── uploaded-data.ejs
-├── sample-data.csv
-├── server.js
-└── README.md
 
 Sample Data
 A sample CSV file `sh(sample-data.csv)` is included in the project for testing the upload functionality. The file contains the following data:

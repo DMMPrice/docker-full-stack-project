@@ -21,24 +21,27 @@ This project is a Node.js application that fetches data from an API, displays it
    ```sh
    git clone https://github.com/your-username/ejs-app.git
    cd ejs-app
+   ```
 2. Install the dependencies:
    ```sh
    npm install
-Project Structure:
-  ejs-app/
+   Project Structure:
+   ```
+
+ejs-app/
 ├── public/
-│   └── styles.css
+│ └── styles.css
 ├── uploads/
 ├── views/
-│   ├── index.ejs
-│   ├── upload.ejs
-│   └── uploaded-data.ejs
+│ ├── index.ejs
+│ ├── upload.ejs
+│ └── uploaded-data.ejs
 ├── sample-data.csv
 ├── server.js
 └── README.md
 
 Sample Data
-A sample CSV file `(sample-data.csv)` is included in the project for testing the upload functionality. The file contains the following data:
+A sample CSV file `sh(sample-data.csv)` is included in the project for testing the upload functionality. The file contains the following data:
 id,title,body
 1,Sample Title 1,This is the body of sample data 1.
 2,Sample Title 2,This is the body of sample data 2.
